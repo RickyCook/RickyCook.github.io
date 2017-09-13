@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>CRISSP Bookmarklets</h1>
+    <a href="javascript:id=prompt('Case ID?');document.location='https://www.crissp.org/crssp/psc/CRPRD_1/EMPLOYEE/CRM/c/RBG_CALLCENTER.RC_CASE_SW.GOV?CASE_ID=' + id">Case</a>
+    <a href="javascript:id=prompt('Person ID?'); document.location = 'https://www.crissp.org/crssp/psc/CRPRD_8/EMPLOYEE/CRM/c/RB_MANAGE_CUSTOMER_INFORMATION.RD_CONSUMER_2.GBL?PERSON_ID=' + id">Person</a>
+    <a href="javascript:caseid=prompt('Case ID?');noteid=prompt('Note ID?'); document.location='https://www.crissp.org/crssp/psc/CRPRD_4/EMPLOYEE/CRM/c/ICC_ALERT_MENU.ICC_CASE_NOTE.GBL?CASE_ID=' + caseid + '&ICC_NOTE_ID=' +noteid">Note</a> (Asks for a case ID, and note ID; sadly this is just CRISSP being CRISSP)
+
+    <a href="javascript:id=prompt('Case ID?'); document.location = 'https://www.crissp.org/crssp/psc/CRPRD_1/EMPLOYEE/CRM/c/ICC_ALERT_MENU.ICC_DS_INFO_CLLCT.GBL?Page=ICC_DSCPERSN_INFO3&ACTION=A&BUSINESS_UNIT=SPDS1&CASE_ID=' + id">Planning</a> (Asks for a case ID)
+    <a href="javascript:id=prompt('Person ID?'); document.location = 'https://www.crissp.org/crssp/psc/CRPRD_1/EMPLOYEE/CRM/c/ICC_CONSENT.ICC_CONSENT_SUM.GBL?Page=ICC_CONSENT_SUM&Action=U&PERSON_ID=' + id">Consent</a> (Asks for a person ID)
+    <a href="javascript:id=prompt('Person ID?'); document.location = 'https://www.crissp.org/crssp/psc/CRPRD_1/EMPLOYEE/CRM/c/ICC_PERSON_PAGES_1.ICC_DEMOGRAPHICS.GBL?Page=ICC_DEMOGRAPHICS&PERSON_ID=' + id">Demographics</a> (Asks for a person ID)
+  </body>
+</html>
